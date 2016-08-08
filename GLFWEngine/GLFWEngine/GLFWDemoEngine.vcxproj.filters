@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CEngine.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ExampleDemo.cpp">
+      <Filter>Source\Example Demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CEngine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IDemo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleDemo.h">
+      <Filter>Source\Example Demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ccca85a1-f971-423c-9efc-a440f6c64b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{fcef3f3e-5fb6-4187-b518-b5f3783458be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Example Demo">
+      <UniqueIdentifier>{6cabacb7-698e-497d-955a-692c0b8c7a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{c59a2d28-bb44-4704-9d11-3660a928c569}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simple.glsl.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="simple.glsl.frag">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
